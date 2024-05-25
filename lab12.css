@@ -1,0 +1,63 @@
+header {
+    background-color: #F0F0F0;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+}
+
+.desserts {
+    display: flex; /* Добавлено для выравнивания в ряд */
+    justify-content: center; /* Центрирование элементов */
+    flex-wrap: wrap; /* Перенос на новую строку при необходимости */
+    margin-bottom: 50px;
+}
+
+.desserts h2 {
+    color: #666;
+    margin-bottom: 20px;
+    width: 100%; /* Для того чтобы заголовок занимал всю ширину контейнера */
+    text-align: center; /* Центрирование заголовка */
+}
+
+.dessert {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 15px 30px 15px; /* Добавлен отступ по горизонтали */
+}
+
+.dessert img {
+    width: 200px;
+    height: 200px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+
+.dessert h3 {
+    color: #333;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.dessert p {
+    color: #999;
+    text-align: center;
+}
+
+footer {
+    background-color: #F0F0F0;
+    padding: 20px;
+    text-align: center;
+}
+
+footer p {
+    color: #666;
+}
+
+footer a {
+    color: #333;
+    text-decoration: none;
+}
